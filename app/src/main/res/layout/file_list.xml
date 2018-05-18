@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/file_layout"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/file_img"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/file"/>
+    <TextView
+        android:layout_toEndOf="@+id/file_img"
+        android:id="@+id/file_name"
+        android:text="hiiiii"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</RelativeLayout>
